@@ -18,7 +18,7 @@ I performed a detailed data conversion and cleaning process, transforming the un
 3.  **Data Validation & Flagging:** I created a "VerificationNeeded" column to flag entries with issues like missing phone numbers, failed account verifications noted in the source, or ambiguous remarks. This made the review process for the client highly efficient.
 4.  **Professional Formatting:** The final Excel sheet was professionally formatted with filters, frozen panes, and clear headings for easy navigation and use.
 
-`[Insert image placeholder: visuals/[final_excel_sheet.png](https://github.com/John-DataExpert/Conversion-of-Scanned-PDF-Document-to-Excel/blob/main/screenshot.PNG) - A caption could read: "The final structured Excel sheet with a 'VerificationNeeded' column for efficient review."]`
+[Screenshot of Final Structured Excel Sheet](https://github.com/John-DataExpert/Conversion-of-Scanned-PDF-Document-to-Excel/blob/main/screenshot.PNG)
 
 ---
 
