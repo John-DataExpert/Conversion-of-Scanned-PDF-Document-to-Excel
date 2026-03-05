@@ -1,4 +1,4 @@
-# Conversion of Scanned Paper Document to PDF and then to Excel
+# Conversion of Scanned Paper/PDF Document to Excel
 
 ### Overview
 This project showcases the end-to-end process of converting a poorly scanned, multi-page paper document to a PDF document containing a financial beneficiary list into a structured, clean, and validated Excel spreadsheet. This task is critical for data management, auditing, and payment processing.
