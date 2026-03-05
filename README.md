@@ -25,7 +25,7 @@ I performed a detailed data conversion and cleaning process, transforming the un
 ### Tools Used
 *   **Microsoft Excel:** For data entry, cleaning, formatting, and validation.
 *   **PDF Viewer/Reader:** For viewing the source document.
-*   **(Mention of) OCR Tools:** To note that I attempted automated methods first before resorting to a more robust manual process, showing problem-solving skills.
+*   **Google Lens:** Note that I attempted automated methods first before resorting to a more robust manual process.
 
 ---
 
