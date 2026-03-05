@@ -35,7 +35,7 @@ I performed a detailed data conversion and cleaning process, transforming the un
 3.  **Structural Cleaning:**
     *   Removed currency symbols and commas from the `Amount` column and converted it to a numeric format.
     *   Standardized bank names (e.g., "Grant BANK" and "GRANT Bank" became "GRANT BANK").
-4.  **Content Validation:** Created rules to flag rows for review. For example: `IF(OR(ISBLANK([PhoneNumber]), [Remarks]<>""), "Yes", "")`. This simple logic automatically highlighted entries needing a second look.
+4.  **Content Validation:** Created rules to flag rows for review. 
 5.  **Final Review:** Conducted a final pass to ensure all data was correctly aligned and the validation flags were accurate.
 
 ---
