@@ -33,7 +33,7 @@ I performed a detailed data conversion and cleaning process, transforming the un
 1.  **Initial Assessment:** Evaluated the PDF and determined that manual extraction was necessary for accuracy.
 2.  **Data Entry:** Transcribed the data field-by-field into an Excel spreadsheet, ensuring each row corresponded to a unique beneficiary.
 3.  **Structural Cleaning:**
-    *   Removed currency symbols and commas from the `Amount` column and converted it to a numeric format.
+    *   Removed currency symbols from the `Amount` column and converted it to a numeric format.
     *   Standardized bank names (e.g., "Grant BANK" and "GRANT Bank" became "GRANT BANK").
 4.  **Content Validation:** Created rules to flag rows for review. 
 5.  **Final Review:** Conducted a final pass to ensure all data was correctly aligned and the validation flags were accurate.
