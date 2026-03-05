@@ -1,4 +1,4 @@
-# Project: Conversion of Scanned Paper Document to PDF and then to Excel
+# Conversion of Scanned Paper Document to PDF and then to Excel
 
 ### Overview
 This project showcases the end-to-end process of converting a poorly scanned, multi-page paper document to a PDF document containing a financial beneficiary list into a structured, clean, and validated Excel spreadsheet. This task is critical for data management, auditing, and payment processing.
@@ -14,11 +14,11 @@ A client had a 11-page scanned PDF of a payment list. The data was unsearchable,
 I performed a detailed data conversion and cleaning process, transforming the unusable PDF into a valuable data asset.
 
 1.  **Manual Data Extraction:** Due to poor OCR results, I conducted a meticulous manual transcription of the data to ensure the highest level of accuracy.
-2.  **Data Structuring & Cleaning:** I organized the raw data into a logical structure (Name, Account, Bank, etc.) and performed extensive cleaning. This included standardizing name formats (e.g., "Last, First"), cleaning numeric fields, and separating notes from core data.
+2.  **Data Structuring & Cleaning:** I organized the raw data into a logical structure (Name, Account, Bank, etc.) and performed extensive cleaning. 
 3.  **Data Validation & Flagging:** I created a "VerificationNeeded" column to flag entries with issues like missing phone numbers, failed account verifications noted in the source, or ambiguous remarks. This made the review process for the client highly efficient.
 4.  **Professional Formatting:** The final Excel sheet was professionally formatted with filters, frozen panes, and clear headings for easy navigation and use.
 
-`[Insert image placeholder: visuals/final_excel_sheet.png - A caption could read: "The final structured Excel sheet with a 'VerificationNeeded' column for efficient review."]`
+`[Insert image placeholder: visuals/[final_excel_sheet.png](https://github.com/John-DataExpert/Conversion-of-Scanned-PDF-Document-to-Excel/blob/main/screenshot.PNG) - A caption could read: "The final structured Excel sheet with a 'VerificationNeeded' column for efficient review."]`
 
 ---
 
@@ -33,9 +33,8 @@ I performed a detailed data conversion and cleaning process, transforming the un
 1.  **Initial Assessment:** Evaluated the PDF and determined that manual extraction was necessary for accuracy.
 2.  **Data Entry:** Transcribed the data field-by-field into an Excel spreadsheet, ensuring each row corresponded to a unique beneficiary.
 3.  **Structural Cleaning:**
-    *   Split the `Full Name` column and reformatted it to a consistent `Last Name, First Name` format where possible.
     *   Removed currency symbols and commas from the `Amount` column and converted it to a numeric format.
-    *   Standardized bank names (e.g., "FIRST BANK" and "First Bank" became "First Bank").
+    *   Standardized bank names (e.g., "Grant BANK" and "GRANT Bank" became "GRANT BANK").
 4.  **Content Validation:** Created rules to flag rows for review. For example: `IF(OR(ISBLANK([PhoneNumber]), [Remarks]<>""), "Yes", "")`. This simple logic automatically highlighted entries needing a second look.
 5.  **Final Review:** Conducted a final pass to ensure all data was correctly aligned and the validation flags were accurate.
 
